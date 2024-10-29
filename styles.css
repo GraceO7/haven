@@ -113,9 +113,7 @@ display: none;
     }
     
 }
-@media (max-width: 1100px){
 
-}
 /* Home Section */
 .home {
     background: url('images/home.jpg') no-repeat center center/cover;
@@ -232,6 +230,14 @@ display: none;
 
 /* Responsive Design */
 @media(max-width:850px){
+    .logo  img{
+        width: 70%;
+        padding-top: 5px;
+        height: 25%;
+        margin: -10px;
+        border-radius: 50px;
+    }
+    
     .nav-links li a{
         font-size: .8em;
     }
@@ -264,6 +270,14 @@ display: none;
     }
 }
 @media (max-width: 668px) {
+    .logo  img{
+        width: 50%;
+        padding-top: 5px;
+        height: 15%;
+        margin: -10px;
+        border-radius: 50px;
+    }
+    
     .home{
         height: 70vh;
     }
