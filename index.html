@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Landing Page</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!--javascript file  -->
+    <script defer  src="scripts.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo"><img src="images/logo.jpg" alt=""></div>
+        <nav>
+            <ul id="nav-links" class="nav-links">
+                <li onclick="closemenu()" class="close-menu"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li onclick="closemenu()"><a href="#home" id="link">Home</a></li>
+                <li onclick="closemenu()"><a href="#about" id="link">About Us</a></li>
+                <li onclick="closemenu()"><a href="#services" id="link">Services</a></li>
+                <li onclick="closemenu()"><a href="#gallery" id="link">Gallery</a></li>
+                <li onclick="closemenu()"><a href="#offers" id="link">Offers</a></li>
+                <li onclick="closemenu()"><a href="#testimonials" id="link">Testimonials</a></li>
+                <li onclick="closemenu()"><a href="#contact" id="link">Contact Us</a></li>
+                <li onclick="closemenu()"><a href="https://wa.me/123456789?text=I%20would%20like%20to%20book%20an%20appointment" class="btn-book-now" id="link"><svg class="whatsapp"  xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 448 512" style="fill: #efeff9;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z"/></svg>Book Now</a></li>
+               
+             
+            </ul>
+                <div class="menu-icon" id="menu-icon" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Relax, Rejuvenate, Renew</h1>
+            <p>Your oasis of tranquility awaits you.</p>
+            <a href="#contact" class="home-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-us">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to our luxurious spa, where tranquility meets excellence. At our spa, we believe in creating a serene environment that enhances your well-being. With a wide range of personalized treatments, from relaxing massages to rejuvenating facials, we cater to your specific needs and help you unwind, refresh, and rejuvenate.
+                </p>
+                <p>
+                    Our expert therapists and estheticians use only the highest-quality products, ensuring that every experience is both relaxing and beneficial. Whether you're looking for a quick escape or an all-day spa experience, we offer a variety of services designed to leave you feeling revitalized.
+                </p>
+                <p>
+                    Come and indulge in the ultimate spa experience, where your comfort and satisfaction are our top priorities.
+                </p>
+                <a href="#services" class="btn">Explore Our Services</a>
+            </div>
+            <div class="about-image">
+                <img src="images/spa shop.jpg" alt="Spa Experience">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <img src="images/message.jpg" alt="Massage Therapy">
+                <h3>Massage Therapy</h3>
+                <p>Relaxing and rejuvenating massages such as Swedish, Deep Tissue, and Hot Stone.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/facial.jpg" alt="Facial Treatments">
+                <h3>Facial Treatments</h3>
+                <p>Skincare services like Classic Facial, Anti-aging treatments, and more.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/body treament.jpg" alt="Body Treatments">
+                <h3>Body Treatments</h3>
+                <p>Exfoliating body scrubs, detoxifying wraps, and hydrating treatments.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/mani.jpg" alt="Manicures and Pedicures">
+                <h3>Manicures and Pedicures</h3>
+                <p>Beautiful spa manicures and pedicures, including gel and nail art.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/hair wax.jpg" alt="Hair Removal">
+                <h3>Hair Removal</h3>
+                <p>Expert waxing services, including Brazilian, full body, and laser hair removal.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/couple (2).jpg" alt="Wellness Packages">
+                <h3>Wellness Packages</h3>
+                <p>Special spa packages for couples, stress relief, and more relaxation experiences.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/spa room.jpg" alt="Spa Room" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/relaxation.jpeg" alt="Spa Room" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/couple massage.jpg" alt="Spa Room" class="gallery-img">
+            </div>
+           
+            <div class="gallery-item">
+                <img src="images/massage.jpg" alt="Massage Room" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Massage des pieds.jpg" alt="Facial Treatment" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/spa room (1).jpg" alt="Relaxation Area" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/spa room (2).jpg" alt="Spa Exterior" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="images/body treament.jpg" alt="Body Treatment" class="gallery-img">
+            </div>
+            
+        </div>
+    
+        </section>
+    <!-- offers -->
+    <section id="offers" class="offers">
+        <h2>Special Offers</h2>
+        <div class="offer-container">
+            <div class="offer-card">
+                <img src="images/facial treament (1).jpg" alt="Relaxation Package">
+                <div class="offer-content">
+                    <h3>Relaxation Package</h3>
+                    <p>Unwind with a full-body massage and facial treatment. Get 20% off for first-time customers!</p>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <img src="images/couple.jpg" alt="Couple's Spa Day">
+                <div class="offer-content">
+                    <h3>Couple's Spa Day</h3>
+                    <p>Enjoy a luxurious spa day with your partner. Special discount on couple's packages this month!</p>
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <img src="images/card.jpg" alt="Monthly Membership">
+                <div class="offer-content">
+                    <h3>Monthly Membership</h3>
+                    <p>Get unlimited access to our spa services with our exclusive monthly membership plans. Save 30% today!</p>
+                    <a href="#contact" class="btn">Join Now</a>
+                </div>
+            </div>
+<div class="offer-card">
+    <img src="images/gift card/2.jpg" alt="Gift Certificate" >
+    <div class="offer-content">
+        <h3>Gift Certificate</h3>
+        <p>Give the gift of relaxation to your loved ones with a Calm Haven gift certificate. Perfect for any occasion!</p>
+        <a href="#" class="btn">Buy a Gift Certificate</a>
+    </div>
+</div>
+
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="images/review.jpg" alt="Sarah P." class="testimonial-img">
+                <p>"The spa experience was amazing! The staff were so welcoming and the massage was just what I needed. Will definitely be coming back!"</p>
+                <div class="stars">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> 
+                </div>
+                <h4>– Katie Lee</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/review1.jpg" alt="Michael L." class="testimonial-img">
+                <p>"Such a relaxing environment. I loved the facial treatment, and my skin has never felt better. Highly recommend!"</p>
+                <div class="stars">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> 
+                </div>
+                <h4>– Kim N.</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/review3.jpg" alt="Gracie K." class="testimonial-img">
+                <p>"Amazing service! The couple's package was perfect, and the staff made the entire day unforgettable."</p>
+                <div class="stars">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span> 
+                </div>
+                <h4>– Jessica W.</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/review2.jpg" alt="Paul W" class="testimonial-img">
+                <p>"The ambiance of the spa is so peaceful, and the body wrap treatment left me feeling rejuvenated. I’ll be coming back for more!"</p>
+                <div class="stars">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span> 
+                </div>
+                <h4>– Robert K.</h4>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book an appointment? Feel free to reach out to us!</p>
+        <div class="contact-form-container">
+            <form action="#" method="post" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+     <footer id="footer">
+        <div class="footer-content">
+  <div class="footer-connect">
+    
+                    <h2>Let’s Connect</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis deleniti iste, et quibusdam temporibus nemo veniam dicta vitae sit expedita tempore saepe possimus nam nesciunt similique reiciendis excepturi sapiente dolore. Deserunt incidunt dolorum voluptas deleniti.</p>
+                    <div class="footer-social">
+                
+                      <a href="#0" class="social-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#efeff9;transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                          
+                        </a>
+                  
+                  
+                      <a href="#0" class="social-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#efeff9;
+                          transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                     
+                        </a>
+                  
+                  
+                      <a href="#0" class="social-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill:#efeff9;transform: ;msFilter:;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+                          
+                        </a>
+                  
+                  
+                      <a href="#0" class="social-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: #efeff9;transform:;-ms-filter:"><path d="M20.66,6.98c-0.894-1.533-2.107-2.747-3.641-3.64C15.486,2.447,13.813,2,12,2S8.514,2.447,6.98,3.34 C5.447,4.233,4.233,5.447,3.34,6.98S2,10.187,2,12s0.446,3.487,1.34,5.02c0.894,1.534,2.107,2.747,3.641,3.64 C8.514,21.553,10.187,22,12,22s3.486-0.447,5.02-1.34c1.533-0.893,2.747-2.106,3.641-3.64C21.554,15.487,22,13.813,22,12 S21.554,8.513,20.66,6.98z M12,3.66c2,0,3.772,0.64,5.32,1.919c-0.92,1.174-2.286,2.14-4.1,2.9c-1.002-1.813-2.088-3.327-3.261-4.54 C10.641,3.753,11.319,3.66,12,3.66z M5.51,6.8c0.754-0.947,1.656-1.686,2.711-2.22c1.212,1.201,2.325,2.7,3.34,4.5 c-2,0.6-4.114,0.9-6.341,0.9c-0.573,0-1.006-0.013-1.3-0.04C4.227,8.793,4.757,7.747,5.51,6.8z M3.66,12 c0-0.054,0.003-0.12,0.01-0.2c0.007-0.08,0.01-0.146,0.01-0.2c0.254,0.014,0.641,0.02,1.161,0.02c2.666,0,5.146-0.367,7.439-1.1 c0.187,0.373,0.381,0.793,0.58,1.26c-1.32,0.293-2.674,1.006-4.061,2.14S6.4,16.247,5.76,17.5C4.36,15.913,3.66,14.08,3.66,12z M12,20.34c-1.894,0-3.594-0.587-5.101-1.759C7.5,17.394,8.423,16.259,9.67,15.18c1.246-1.08,2.483-1.753,3.71-2.02 c0.772,2.133,1.293,4.339,1.56,6.62C13.966,20.153,12.986,20.34,12,20.34z M19.08,16.38c-0.666,1.066-1.526,1.94-2.58,2.621 c-0.24-2.08-0.7-4.107-1.379-6.081c0.932-0.066,1.765-0.1,2.5-0.1c0.799,0,1.686,0.034,2.659,0.1 C20.146,14.16,19.746,15.313,19.08,16.38z M17.84,11.38c-1.16,0-2.233,0.047-3.22,0.14c-0.254-0.653-0.48-1.193-0.68-1.62 c2.066-0.906,3.532-2.006,4.399-3.3c1.2,1.414,1.854,3.027,1.96,4.84C19.487,11.4,18.667,11.38,17.84,11.38z"></path></svg>
+                        
+                        </a>   
+                  </div>
+                  
+                  </div>
+                <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="https://wa.me/+2349055360744?text=I%20would%20like%20to%20book%20an%20appointment" class="btn-book-now"><svg class="whatsapp"  xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512" style="fill: #efeff9;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z"/></svg>Book Now</a></li> <!-- Replace with your WhatsApp number -->
+               
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                  <h2>Newsletter</h2>
+                  <p>Subscribe to our newsletter to get the latest updates and offers.</p>
+                  <form action="#" method="post" class="form">
+                      <input type="email" placeholder="Enter your email" required>
+                      <button type="submit">Subscribe</button>
+                  </form>
+              </div>                
+            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Calm Haven. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
