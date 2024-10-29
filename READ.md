@@ -2,7 +2,7 @@
 
 This is a responsive landing page template for **Calm Haven Spa**, designed to provide users with a seamless and enjoyable experience when exploring spa services. Created with **HTML**, **CSS**, and **JavaScript**, this template highlights the spa's offerings, gallery, and customer testimonials, with a strong focus on usability and visual appeal.
 
-![Calm Haven Preview](./public/images/preview.png)
+![Calm Haven Preview](./images/template.jpeg)
 
 ---
 
