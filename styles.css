@@ -117,7 +117,7 @@ display: none;
 /* Home Section */
 .home {
     background: url('images/home.jpg') no-repeat center center/cover;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,6 +268,9 @@ display: none;
     .about-content h2 {
         font-size: 2rem;
     }
+.about-content p{
+font-size:.9em;
+}
 }
 @media (max-width: 668px) {
     .logo  img{
@@ -610,7 +613,7 @@ display: none;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width:1200px){
     .testimonial-container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -883,7 +886,7 @@ background-color: var(--btn-hover);
     color: var(--black);
 }
 
-@media (max-width: 868px) {
+@media (max-width:1200px)and(max-width: 568px) {
     .footer-content {
         flex-direction: column;
         align-items: center;
