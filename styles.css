@@ -171,7 +171,7 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 1200px;
     margin: 0 auto;
     gap: 2rem;
@@ -248,7 +248,7 @@ display: none;
         margin-top: 40%;
     }
     .about-container{
-        flex-direction: column;
+     font-size:1.5em
     }
 }
 @media (max-width: 768px) {
@@ -613,7 +613,7 @@ font-size:.9em;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) and (min-width:1200px){
+@media (max-width:1200px){
     .testimonial-container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -624,7 +624,7 @@ font-size:.9em;
 /* Contact Form */
 /* Contact Section */
 .contact {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background-color:var(--btn-hover);
     /* text-align: center; */
 }
@@ -651,6 +651,7 @@ font-size:.9em;
 .contact-form {
     display: flex;
     flex-direction: column;
+flex-wrap:nowrap;
 }
 
 .input-group {
@@ -692,6 +693,7 @@ font-size:.9em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
     transition: background-color 0.3s ease;
 }
 
@@ -720,8 +722,9 @@ font-size:.9em;
 
 .footer-content {
     width: 100%;
+max-width:1200px;
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     margin: 20px 0;
     gap: 1rem;
@@ -839,7 +842,7 @@ font-size:.9em;
 .footer-newsletter form {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 10px;
 }
