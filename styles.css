@@ -120,7 +120,7 @@ display: none;
     min-height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     color: var(--black);
     padding:2rem 0;
@@ -128,7 +128,8 @@ display: none;
 
 .home-content {
     line-height: 2;
-    margin: auto;
+    margin:20px auto;
+    
 }
 
 .home-content h1 {
@@ -773,7 +774,7 @@ max-width:1200px;
 
 .footer-links ul li {
     margin-bottom: 5px;
-    /* margin-left: 50px; */
+    
 }
 
 .footer-links ul li a {
@@ -804,9 +805,7 @@ max-width:1200px;
     border-radius: 50%;
 }
 
-/* .footer-social .social-icon:hover {
-    color: var(--offyellow);
-} */
+
 .footer-connect {
     padding: 20px;
     border-radius: 10px;
@@ -821,8 +820,9 @@ max-width:1200px;
 
 .footer-newsletter {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px 30px; 
     border-radius: 10px;
