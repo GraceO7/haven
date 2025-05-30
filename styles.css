@@ -333,8 +333,7 @@ font-size:.9em;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    width:80%
+    width: 300px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -562,7 +561,7 @@ font-size:.9em;
 }
 /* testimonial */
 .testimonials {
-    padding: 4rem 1rem;
+    padding: 4rem 2rem;
     background-color: #f4f4f4;
     text-align: center;
 }
