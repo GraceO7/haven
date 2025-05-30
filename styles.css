@@ -851,9 +851,9 @@ max-width:1200px;
 }
 
 .footer-newsletter input{
-    flex:3;
+    flex:4;
     max-width:70%;
-    width:100%
+    width:100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
