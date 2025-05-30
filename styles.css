@@ -123,12 +123,12 @@ display: none;
     align-items: center;
     text-align: center;
     color: var(--black);
+    padding:2rem 0;
 }
 
 .home-content {
     line-height: 2;
-    max-width: 600px;
-    margin-top: 25%;
+    margin: auto;
 }
 
 .home-content h1 {
@@ -729,7 +729,6 @@ max-width:1200px;
     margin: 20px 0;
     gap: 1rem;
     
-
 }
 
 
@@ -763,6 +762,7 @@ max-width:1200px;
 .footer-connect p{
     font-size: 1..1em;
     color: var(--black);
+    text-align:left;
 }
 .footer-links ul {
     list-style: none;
@@ -821,7 +821,7 @@ max-width:1200px;
 
 .footer-newsletter {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px 30px; 
@@ -843,13 +843,17 @@ max-width:1200px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    align-items:center;
     justify-content: center;
     gap: 10px;
+    
+    
 }
 
 .footer-newsletter input[type="email"] {
-    /* flex: 1; */
-    width: 100%;
+    flex:3;
+    max-width:70%;
+    width:100%
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -862,9 +866,10 @@ max-width:1200px;
 }
 
 .footer-newsletter button {
- width: 100px;
+ flex:1;
  border: none;
 padding: 10px;
+    display:inline-block;
  border-radius: 5px;
     background-color:var(--btn);
     color:var(--offwhit);
@@ -889,7 +894,7 @@ background-color: var(--btn-hover);
     color: var(--black);
 }
 
-@media (max-width:1200px)and(max-width: 1100px) {
+@media (max-width:1200px) {
     .footer-content {
         flex-direction: column;
         align-items: center;
