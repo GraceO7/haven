@@ -736,10 +736,10 @@ flex-wrap:nowrap;
     width: 100%;
 max-width:1200px;
     display: inline-flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
-    gap: 1rem;
+    gap: 2rem;
     
 }
 
@@ -773,7 +773,7 @@ max-width:1200px;
     margin-top: -20px;
 }
 .footer-connect p{
-    font-size: 1..1em;
+    font-size: 1.1em;
     color: var(--black);
     text-align:left;
 }
@@ -863,7 +863,7 @@ max-width:1200px;
 }
 
 .footer-newsletter input{
-    max-width:70%;
+    max-width:80%;
     width:100%;
     padding: 10px;
     border: none;
