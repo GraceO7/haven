@@ -850,7 +850,7 @@ max-width:1200px;
     
 }
 
-.footer-newsletter input[type="email"] {
+.footer-newsletter input{
     flex:3;
     max-width:70%;
     width:100%
@@ -860,7 +860,7 @@ max-width:1200px;
     font-size: 1em;
     outline: none;
 }
-.footer-newsletter input[type="email"]:focus{
+.footer-newsletter input:focus{
 
     border: 2px solid var(--btn);
 }
